@@ -1,0 +1,877 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="imo4Model" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2008/09/edm">
+  <EntityContainer Name="imo4Entities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="aspnet_Applications" EntityType="imo4Model.aspnet_Applications" />
+    <EntitySet Name="aspnet_Membership" EntityType="imo4Model.aspnet_Membership" />
+    <EntitySet Name="aspnet_Paths" EntityType="imo4Model.aspnet_Paths" />
+    <EntitySet Name="aspnet_PersonalizationAllUsers" EntityType="imo4Model.aspnet_PersonalizationAllUsers" />
+    <EntitySet Name="aspnet_PersonalizationPerUser" EntityType="imo4Model.aspnet_PersonalizationPerUser" />
+    <EntitySet Name="aspnet_Profile" EntityType="imo4Model.aspnet_Profile" />
+    <EntitySet Name="aspnet_Roles" EntityType="imo4Model.aspnet_Roles" />
+    <EntitySet Name="aspnet_SchemaVersions" EntityType="imo4Model.aspnet_SchemaVersions" />
+    <EntitySet Name="aspnet_Users" EntityType="imo4Model.aspnet_Users" />
+    <EntitySet Name="aspnet_WebEvent_Events" EntityType="imo4Model.aspnet_WebEvent_Events" />
+    <EntitySet Name="Carts" EntityType="imo4Model.Cart" />
+    <EntitySet Name="Categorias" EntityType="imo4Model.Categoria" />
+    <EntitySet Name="contadors" EntityType="imo4Model.contador" />
+    <EntitySet Name="estadoes" EntityType="imo4Model.estado" />
+    <EntitySet Name="Fotos" EntityType="imo4Model.Foto" />
+    <EntitySet Name="Idiomas" EntityType="imo4Model.Idioma" />
+    <EntitySet Name="imovel_descricao" EntityType="imo4Model.imovel_descricao" />
+    <EntitySet Name="imovels" EntityType="imo4Model.imovel" />
+    <EntitySet Name="objectivoes" EntityType="imo4Model.objectivo" />
+    <EntitySet Name="OrdemdeCompras" EntityType="imo4Model.OrdemdeCompra" />
+    <EntitySet Name="OrderDetails" EntityType="imo4Model.OrderDetail" />
+    <EntitySet Name="subscricoes" EntityType="imo4Model.subscrico" />
+    <EntitySet Name="sysdiagrams" EntityType="imo4Model.sysdiagram" />
+    <EntitySet Name="tabelaprecos" EntityType="imo4Model.tabelapreco" />
+    <EntitySet Name="tipologias" EntityType="imo4Model.tipologia" />
+    <EntitySet Name="vw_aspnet_Applications" EntityType="imo4Model.vw_aspnet_Applications" />
+    <EntitySet Name="vw_aspnet_MembershipUsers" EntityType="imo4Model.vw_aspnet_MembershipUsers" />
+    <EntitySet Name="vw_aspnet_Profiles" EntityType="imo4Model.vw_aspnet_Profiles" />
+    <EntitySet Name="vw_aspnet_Roles" EntityType="imo4Model.vw_aspnet_Roles" />
+    <EntitySet Name="vw_aspnet_Users" EntityType="imo4Model.vw_aspnet_Users" />
+    <EntitySet Name="vw_aspnet_UsersInRoles" EntityType="imo4Model.vw_aspnet_UsersInRoles" />
+    <EntitySet Name="vw_aspnet_WebPartState_Paths" EntityType="imo4Model.vw_aspnet_WebPartState_Paths" />
+    <EntitySet Name="vw_aspnet_WebPartState_Shared" EntityType="imo4Model.vw_aspnet_WebPartState_Shared" />
+    <EntitySet Name="vw_aspnet_WebPartState_User" EntityType="imo4Model.vw_aspnet_WebPartState_User" />
+    <AssociationSet Name="FK__aspnet_Me__Appli__662B2B3B" Association="imo4Model.FK__aspnet_Me__Appli__662B2B3B">
+      <End Role="aspnet_Applications" EntitySet="aspnet_Applications" />
+      <End Role="aspnet_Membership" EntitySet="aspnet_Membership" />
+    </AssociationSet>
+    <AssociationSet Name="FK__aspnet_Pa__Appli__1F63A897" Association="imo4Model.FK__aspnet_Pa__Appli__1F63A897">
+      <End Role="aspnet_Applications" EntitySet="aspnet_Applications" />
+      <End Role="aspnet_Paths" EntitySet="aspnet_Paths" />
+    </AssociationSet>
+    <AssociationSet Name="FK__aspnet_Ro__Appli__0880433F" Association="imo4Model.FK__aspnet_Ro__Appli__0880433F">
+      <End Role="aspnet_Applications" EntitySet="aspnet_Applications" />
+      <End Role="aspnet_Roles" EntitySet="aspnet_Roles" />
+    </AssociationSet>
+    <AssociationSet Name="FK__aspnet_Us__Appli__5224328E" Association="imo4Model.FK__aspnet_Us__Appli__5224328E">
+      <End Role="aspnet_Applications" EntitySet="aspnet_Applications" />
+      <End Role="aspnet_Users" EntitySet="aspnet_Users" />
+    </AssociationSet>
+    <AssociationSet Name="FK__aspnet_Me__UserI__671F4F74" Association="imo4Model.FK__aspnet_Me__UserI__671F4F74">
+      <End Role="aspnet_Users" EntitySet="aspnet_Users" />
+      <End Role="aspnet_Membership" EntitySet="aspnet_Membership" />
+    </AssociationSet>
+    <AssociationSet Name="FK__aspnet_Pe__PathI__2704CA5F" Association="imo4Model.FK__aspnet_Pe__PathI__2704CA5F">
+      <End Role="aspnet_Paths" EntitySet="aspnet_Paths" />
+      <End Role="aspnet_PersonalizationAllUsers" EntitySet="aspnet_PersonalizationAllUsers" />
+    </AssociationSet>
+    <AssociationSet Name="FK__aspnet_Pe__PathI__2CBDA3B5" Association="imo4Model.FK__aspnet_Pe__PathI__2CBDA3B5">
+      <End Role="aspnet_Paths" EntitySet="aspnet_Paths" />
+      <End Role="aspnet_PersonalizationPerUser" EntitySet="aspnet_PersonalizationPerUser" />
+    </AssociationSet>
+    <AssociationSet Name="FK__aspnet_Pe__UserI__2DB1C7EE" Association="imo4Model.FK__aspnet_Pe__UserI__2DB1C7EE">
+      <End Role="aspnet_Users" EntitySet="aspnet_Users" />
+      <End Role="aspnet_PersonalizationPerUser" EntitySet="aspnet_PersonalizationPerUser" />
+    </AssociationSet>
+    <AssociationSet Name="FK__aspnet_Pr__UserI__7D0E9093" Association="imo4Model.FK__aspnet_Pr__UserI__7D0E9093">
+      <End Role="aspnet_Users" EntitySet="aspnet_Users" />
+      <End Role="aspnet_Profile" EntitySet="aspnet_Profile" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Cart_subscricoes" Association="imo4Model.FK_Cart_subscricoes">
+      <End Role="subscrico" EntitySet="subscricoes" />
+      <End Role="Cart" EntitySet="Carts" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Categorias_Idiomas" Association="imo4Model.FK_Categorias_Idiomas">
+      <End Role="Idioma" EntitySet="Idiomas" />
+      <End Role="Categoria" EntitySet="Categorias" />
+    </AssociationSet>
+    <AssociationSet Name="FK_imovels_Categorias" Association="imo4Model.FK_imovels_Categorias">
+      <End Role="Categoria" EntitySet="Categorias" />
+      <End Role="imovel" EntitySet="imovels" />
+    </AssociationSet>
+    <AssociationSet Name="FK_estado_Idiomas" Association="imo4Model.FK_estado_Idiomas">
+      <End Role="Idioma" EntitySet="Idiomas" />
+      <End Role="estado" EntitySet="estadoes" />
+    </AssociationSet>
+    <AssociationSet Name="FK_imovels_estadoes" Association="imo4Model.FK_imovels_estadoes">
+      <End Role="estado" EntitySet="estadoes" />
+      <End Role="imovel" EntitySet="imovels" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Fotos_imovel" Association="imo4Model.FK_Fotos_imovel">
+      <End Role="imovel" EntitySet="imovels" />
+      <End Role="Foto" EntitySet="Fotos" />
+    </AssociationSet>
+    <AssociationSet Name="FK_imovel_descricao_Idiomas" Association="imo4Model.FK_imovel_descricao_Idiomas">
+      <End Role="Idioma" EntitySet="Idiomas" />
+      <End Role="imovel_descricao" EntitySet="imovel_descricao" />
+    </AssociationSet>
+    <AssociationSet Name="FK_objectivo_Idiomas" Association="imo4Model.FK_objectivo_Idiomas">
+      <End Role="Idioma" EntitySet="Idiomas" />
+      <End Role="objectivo" EntitySet="objectivoes" />
+    </AssociationSet>
+    <AssociationSet Name="FK_imovel_descricao_imovel" Association="imo4Model.FK_imovel_descricao_imovel">
+      <End Role="imovel" EntitySet="imovels" />
+      <End Role="imovel_descricao" EntitySet="imovel_descricao" />
+    </AssociationSet>
+    <AssociationSet Name="FK_imovel_objectivo" Association="imo4Model.FK_imovel_objectivo">
+      <End Role="objectivo" EntitySet="objectivoes" />
+      <End Role="imovel" EntitySet="imovels" />
+    </AssociationSet>
+    <AssociationSet Name="FK_imovel_subscricoes" Association="imo4Model.FK_imovel_subscricoes">
+      <End Role="subscrico" EntitySet="subscricoes" />
+      <End Role="imovel" EntitySet="imovels" />
+    </AssociationSet>
+    <AssociationSet Name="FK_imovel_tipologia" Association="imo4Model.FK_imovel_tipologia">
+      <End Role="tipologia" EntitySet="tipologias" />
+      <End Role="imovel" EntitySet="imovels" />
+    </AssociationSet>
+    <AssociationSet Name="FK_OrderDetail_OrdemdeCompra" Association="imo4Model.FK_OrderDetail_OrdemdeCompra">
+      <End Role="OrdemdeCompra" EntitySet="OrdemdeCompras" />
+      <End Role="OrderDetail" EntitySet="OrderDetails" />
+    </AssociationSet>
+    <AssociationSet Name="FK_OrderDetail_subscricoes" Association="imo4Model.FK_OrderDetail_subscricoes">
+      <End Role="subscrico" EntitySet="subscricoes" />
+      <End Role="OrderDetail" EntitySet="OrderDetails" />
+    </AssociationSet>
+    <AssociationSet Name="aspnet_UsersInRoles" Association="imo4Model.aspnet_UsersInRoles">
+      <End Role="aspnet_Roles" EntitySet="aspnet_Roles" />
+      <End Role="aspnet_Users" EntitySet="aspnet_Users" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="aspnet_Applications">
+    <Key>
+      <PropertyRef Name="ApplicationId" />
+    </Key>
+    <Property Type="String" Name="ApplicationName" Nullable="false" MaxLength="256" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="LoweredApplicationName" Nullable="false" MaxLength="256" FixedLength="false" Unicode="true" />
+    <Property Type="Guid" Name="ApplicationId" Nullable="false" />
+    <Property Type="String" Name="Description" MaxLength="256" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="aspnet_Membership" Relationship="imo4Model.FK__aspnet_Me__Appli__662B2B3B" FromRole="aspnet_Applications" ToRole="aspnet_Membership" />
+    <NavigationProperty Name="aspnet_Paths" Relationship="imo4Model.FK__aspnet_Pa__Appli__1F63A897" FromRole="aspnet_Applications" ToRole="aspnet_Paths" />
+    <NavigationProperty Name="aspnet_Roles" Relationship="imo4Model.FK__aspnet_Ro__Appli__0880433F" FromRole="aspnet_Applications" ToRole="aspnet_Roles" />
+    <NavigationProperty Name="aspnet_Users" Relationship="imo4Model.FK__aspnet_Us__Appli__5224328E" FromRole="aspnet_Applications" ToRole="aspnet_Users" />
+  </EntityType>
+  <EntityType Name="aspnet_Membership">
+    <Key>
+      <PropertyRef Name="UserId" />
+    </Key>
+    <Property Type="Guid" Name="ApplicationId" Nullable="false" />
+    <Property Type="Guid" Name="UserId" Nullable="false" />
+    <Property Type="String" Name="Password" Nullable="false" MaxLength="128" FixedLength="false" Unicode="true" />
+    <Property Type="Int32" Name="PasswordFormat" Nullable="false" />
+    <Property Type="String" Name="PasswordSalt" Nullable="false" MaxLength="128" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="MobilePIN" MaxLength="16" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Email" MaxLength="256" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="LoweredEmail" MaxLength="256" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="PasswordQuestion" MaxLength="256" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="PasswordAnswer" MaxLength="128" FixedLength="false" Unicode="true" />
+    <Property Type="Boolean" Name="IsApproved" Nullable="false" />
+    <Property Type="Boolean" Name="IsLockedOut" Nullable="false" />
+    <Property Type="DateTime" Name="CreateDate" Nullable="false" />
+    <Property Type="DateTime" Name="LastLoginDate" Nullable="false" />
+    <Property Type="DateTime" Name="LastPasswordChangedDate" Nullable="false" />
+    <Property Type="DateTime" Name="LastLockoutDate" Nullable="false" />
+    <Property Type="Int32" Name="FailedPasswordAttemptCount" Nullable="false" />
+    <Property Type="DateTime" Name="FailedPasswordAttemptWindowStart" Nullable="false" />
+    <Property Type="Int32" Name="FailedPasswordAnswerAttemptCount" Nullable="false" />
+    <Property Type="DateTime" Name="FailedPasswordAnswerAttemptWindowStart" Nullable="false" />
+    <Property Type="String" Name="Comment" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="aspnet_Applications" Relationship="imo4Model.FK__aspnet_Me__Appli__662B2B3B" FromRole="aspnet_Membership" ToRole="aspnet_Applications" />
+    <NavigationProperty Name="aspnet_Users" Relationship="imo4Model.FK__aspnet_Me__UserI__671F4F74" FromRole="aspnet_Membership" ToRole="aspnet_Users" />
+  </EntityType>
+  <EntityType Name="aspnet_Paths">
+    <Key>
+      <PropertyRef Name="PathId" />
+    </Key>
+    <Property Type="Guid" Name="ApplicationId" Nullable="false" />
+    <Property Type="Guid" Name="PathId" Nullable="false" />
+    <Property Type="String" Name="Path" Nullable="false" MaxLength="256" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="LoweredPath" Nullable="false" MaxLength="256" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="aspnet_Applications" Relationship="imo4Model.FK__aspnet_Pa__Appli__1F63A897" FromRole="aspnet_Paths" ToRole="aspnet_Applications" />
+    <NavigationProperty Name="aspnet_PersonalizationAllUsers" Relationship="imo4Model.FK__aspnet_Pe__PathI__2704CA5F" FromRole="aspnet_Paths" ToRole="aspnet_PersonalizationAllUsers" />
+    <NavigationProperty Name="aspnet_PersonalizationPerUser" Relationship="imo4Model.FK__aspnet_Pe__PathI__2CBDA3B5" FromRole="aspnet_Paths" ToRole="aspnet_PersonalizationPerUser" />
+  </EntityType>
+  <EntityType Name="aspnet_PersonalizationAllUsers">
+    <Key>
+      <PropertyRef Name="PathId" />
+    </Key>
+    <Property Type="Guid" Name="PathId" Nullable="false" />
+    <Property Type="Binary" Name="PageSettings" Nullable="false" MaxLength="Max" FixedLength="false" />
+    <Property Type="DateTime" Name="LastUpdatedDate" Nullable="false" />
+    <NavigationProperty Name="aspnet_Paths" Relationship="imo4Model.FK__aspnet_Pe__PathI__2704CA5F" FromRole="aspnet_PersonalizationAllUsers" ToRole="aspnet_Paths" />
+  </EntityType>
+  <EntityType Name="aspnet_PersonalizationPerUser">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Type="Guid" Name="Id" Nullable="false" />
+    <Property Type="Guid" Name="PathId" />
+    <Property Type="Guid" Name="UserId" />
+    <Property Type="Binary" Name="PageSettings" Nullable="false" MaxLength="Max" FixedLength="false" />
+    <Property Type="DateTime" Name="LastUpdatedDate" Nullable="false" />
+    <NavigationProperty Name="aspnet_Paths" Relationship="imo4Model.FK__aspnet_Pe__PathI__2CBDA3B5" FromRole="aspnet_PersonalizationPerUser" ToRole="aspnet_Paths" />
+    <NavigationProperty Name="aspnet_Users" Relationship="imo4Model.FK__aspnet_Pe__UserI__2DB1C7EE" FromRole="aspnet_PersonalizationPerUser" ToRole="aspnet_Users" />
+  </EntityType>
+  <EntityType Name="aspnet_Profile">
+    <Key>
+      <PropertyRef Name="UserId" />
+    </Key>
+    <Property Type="Guid" Name="UserId" Nullable="false" />
+    <Property Type="String" Name="PropertyNames" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="PropertyValuesString" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Type="Binary" Name="PropertyValuesBinary" Nullable="false" MaxLength="Max" FixedLength="false" />
+    <Property Type="DateTime" Name="LastUpdatedDate" Nullable="false" />
+    <NavigationProperty Name="aspnet_Users" Relationship="imo4Model.FK__aspnet_Pr__UserI__7D0E9093" FromRole="aspnet_Profile" ToRole="aspnet_Users" />
+  </EntityType>
+  <EntityType Name="aspnet_Roles">
+    <Key>
+      <PropertyRef Name="RoleId" />
+    </Key>
+    <Property Type="Guid" Name="ApplicationId" Nullable="false" />
+    <Property Type="Guid" Name="RoleId" Nullable="false" />
+    <Property Type="String" Name="RoleName" Nullable="false" MaxLength="256" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="LoweredRoleName" Nullable="false" MaxLength="256" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Description" MaxLength="256" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="aspnet_Applications" Relationship="imo4Model.FK__aspnet_Ro__Appli__0880433F" FromRole="aspnet_Roles" ToRole="aspnet_Applications" />
+    <NavigationProperty Name="aspnet_Users" Relationship="imo4Model.aspnet_UsersInRoles" FromRole="aspnet_Roles" ToRole="aspnet_Users" />
+  </EntityType>
+  <EntityType Name="aspnet_SchemaVersions">
+    <Key>
+      <PropertyRef Name="Feature" />
+      <PropertyRef Name="CompatibleSchemaVersion" />
+    </Key>
+    <Property Type="String" Name="Feature" Nullable="false" MaxLength="128" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="CompatibleSchemaVersion" Nullable="false" MaxLength="128" FixedLength="false" Unicode="true" />
+    <Property Type="Boolean" Name="IsCurrentVersion" Nullable="false" />
+  </EntityType>
+  <EntityType Name="aspnet_Users">
+    <Key>
+      <PropertyRef Name="UserId" />
+    </Key>
+    <Property Type="Guid" Name="ApplicationId" Nullable="false" />
+    <Property Type="Guid" Name="UserId" Nullable="false" />
+    <Property Type="String" Name="UserName" Nullable="false" MaxLength="256" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="LoweredUserName" Nullable="false" MaxLength="256" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="MobileAlias" MaxLength="16" FixedLength="false" Unicode="true" />
+    <Property Type="Boolean" Name="IsAnonymous" Nullable="false" />
+    <Property Type="DateTime" Name="LastActivityDate" Nullable="false" />
+    <NavigationProperty Name="aspnet_Applications" Relationship="imo4Model.FK__aspnet_Us__Appli__5224328E" FromRole="aspnet_Users" ToRole="aspnet_Applications" />
+    <NavigationProperty Name="aspnet_Membership" Relationship="imo4Model.FK__aspnet_Me__UserI__671F4F74" FromRole="aspnet_Users" ToRole="aspnet_Membership" />
+    <NavigationProperty Name="aspnet_PersonalizationPerUser" Relationship="imo4Model.FK__aspnet_Pe__UserI__2DB1C7EE" FromRole="aspnet_Users" ToRole="aspnet_PersonalizationPerUser" />
+    <NavigationProperty Name="aspnet_Profile" Relationship="imo4Model.FK__aspnet_Pr__UserI__7D0E9093" FromRole="aspnet_Users" ToRole="aspnet_Profile" />
+    <NavigationProperty Name="aspnet_Roles" Relationship="imo4Model.aspnet_UsersInRoles" FromRole="aspnet_Users" ToRole="aspnet_Roles" />
+  </EntityType>
+  <EntityType Name="aspnet_WebEvent_Events">
+    <Key>
+      <PropertyRef Name="EventId" />
+    </Key>
+    <Property Type="String" Name="EventId" Nullable="false" MaxLength="32" FixedLength="true" Unicode="false" />
+    <Property Type="DateTime" Name="EventTimeUtc" Nullable="false" />
+    <Property Type="DateTime" Name="EventTime" Nullable="false" />
+    <Property Type="String" Name="EventType" Nullable="false" MaxLength="256" FixedLength="false" Unicode="true" />
+    <Property Type="Decimal" Name="EventSequence" Nullable="false" Precision="19" Scale="0" />
+    <Property Type="Decimal" Name="EventOccurrence" Nullable="false" Precision="19" Scale="0" />
+    <Property Type="Int32" Name="EventCode" Nullable="false" />
+    <Property Type="Int32" Name="EventDetailCode" Nullable="false" />
+    <Property Type="String" Name="Message" MaxLength="1024" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="ApplicationPath" MaxLength="256" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="ApplicationVirtualPath" MaxLength="256" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="MachineName" Nullable="false" MaxLength="256" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="RequestUrl" MaxLength="1024" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="ExceptionType" MaxLength="256" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Details" MaxLength="Max" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="Cart">
+    <Key>
+      <PropertyRef Name="RecordId" />
+    </Key>
+    <Property Type="Int32" Name="RecordId" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="CartId" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="Int32" Name="SubscricaoId" Nullable="false" />
+    <Property Type="Int32" Name="Count" Nullable="false" />
+    <Property Type="DateTime" Name="DateCreated" Nullable="false" />
+    <Property Type="String" Name="identidade" MaxLength="200" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="subscrico" Relationship="imo4Model.FK_Cart_subscricoes" FromRole="Cart" ToRole="subscrico" />
+  </EntityType>
+  <EntityType Name="Categoria">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Type="Int32" Name="id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="Int32" Name="lcode_id" Nullable="false" />
+    <Property Type="String" Name="nome" Nullable="false" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="foto" Nullable="false" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Type="Int32" Name="classe" Nullable="false" />
+    <NavigationProperty Name="Idioma" Relationship="imo4Model.FK_Categorias_Idiomas" FromRole="Categoria" ToRole="Idioma" />
+    <NavigationProperty Name="imovels" Relationship="imo4Model.FK_imovels_Categorias" FromRole="Categoria" ToRole="imovel" />
+  </EntityType>
+  <EntityType Name="contador">
+    <Key>
+      <PropertyRef Name="visitas" />
+    </Key>
+    <Property Type="Int32" Name="visitas" Nullable="false" />
+  </EntityType>
+  <EntityType Name="estado">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Type="Int32" Name="id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="estado1" Nullable="false" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Type="Int32" Name="lcode_id" />
+    <Property Type="Int32" Name="classe" />
+    <NavigationProperty Name="Idioma" Relationship="imo4Model.FK_estado_Idiomas" FromRole="estado" ToRole="Idioma" />
+    <NavigationProperty Name="imovels" Relationship="imo4Model.FK_imovels_estadoes" FromRole="estado" ToRole="imovel" />
+  </EntityType>
+  <EntityType Name="Foto">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Type="Int32" Name="id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="image_file_name" Nullable="false" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Type="Int32" Name="imovel_id" Nullable="false" />
+    <NavigationProperty Name="imovel" Relationship="imo4Model.FK_Fotos_imovel" FromRole="Foto" ToRole="imovel" />
+  </EntityType>
+  <EntityType Name="Idioma">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Type="Int32" Name="id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="lcode" Nullable="false" MaxLength="2" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Categorias" Relationship="imo4Model.FK_Categorias_Idiomas" FromRole="Idioma" ToRole="Categoria" />
+    <NavigationProperty Name="estadoes" Relationship="imo4Model.FK_estado_Idiomas" FromRole="Idioma" ToRole="estado" />
+    <NavigationProperty Name="imovel_descricao" Relationship="imo4Model.FK_imovel_descricao_Idiomas" FromRole="Idioma" ToRole="imovel_descricao" />
+    <NavigationProperty Name="objectivoes" Relationship="imo4Model.FK_objectivo_Idiomas" FromRole="Idioma" ToRole="objectivo" />
+  </EntityType>
+  <EntityType Name="imovel_descricao">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Type="Int32" Name="id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="Int32" Name="lcode_id" Nullable="false" />
+    <Property Type="String" Name="descrição" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Type="Int32" Name="imovel_id" Nullable="false" />
+    <NavigationProperty Name="Idioma" Relationship="imo4Model.FK_imovel_descricao_Idiomas" FromRole="imovel_descricao" ToRole="Idioma" />
+    <NavigationProperty Name="imovel" Relationship="imo4Model.FK_imovel_descricao_imovel" FromRole="imovel_descricao" ToRole="imovel" />
+  </EntityType>
+  <EntityType Name="imovel">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Type="Int32" Name="id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="Int32" Name="categoria_id" />
+    <Property Type="Int32" Name="classe_id" />
+    <Property Type="Int32" Name="estado_id" />
+    <Property Type="Int32" Name="estado_classe_id" />
+    <Property Type="Int32" Name="tipologia_id" />
+    <Property Type="Int32" Name="subscricao_id" />
+    <Property Type="Int32" Name="objectivo_classe_id" />
+    <Property Type="Int32" Name="objectivo_id" />
+    <Property Type="String" Name="area_util" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="distrito" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="concelho" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="freguesia" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="rua" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Type="Int32" Name="preco" />
+    <Property Type="String" Name="area_bruta" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="area_terreno" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="identidade" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Type="Int32" Name="status" />
+    <Property Type="DateTime" Name="data_criacao" />
+    <Property Type="DateTime" Name="data_aprovacao" />
+    <Property Type="DateTime" Name="data_expira" />
+    <Property Type="Boolean" Name="jaesteveactivo" />
+    <Property Type="String" Name="pais" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Type="Double" Name="Latitude" />
+    <Property Type="Double" Name="Longitude" />
+    <NavigationProperty Name="Categoria" Relationship="imo4Model.FK_imovels_Categorias" FromRole="imovel" ToRole="Categoria" />
+    <NavigationProperty Name="estado" Relationship="imo4Model.FK_imovels_estadoes" FromRole="imovel" ToRole="estado" />
+    <NavigationProperty Name="Fotos" Relationship="imo4Model.FK_Fotos_imovel" FromRole="imovel" ToRole="Foto" />
+    <NavigationProperty Name="imovel_descricao" Relationship="imo4Model.FK_imovel_descricao_imovel" FromRole="imovel" ToRole="imovel_descricao" />
+    <NavigationProperty Name="objectivo" Relationship="imo4Model.FK_imovel_objectivo" FromRole="imovel" ToRole="objectivo" />
+    <NavigationProperty Name="subscrico" Relationship="imo4Model.FK_imovel_subscricoes" FromRole="imovel" ToRole="subscrico" />
+    <NavigationProperty Name="tipologia" Relationship="imo4Model.FK_imovel_tipologia" FromRole="imovel" ToRole="tipologia" />
+  </EntityType>
+  <EntityType Name="objectivo">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Type="Int32" Name="id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="tipo_negocio" Nullable="false" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Type="Int32" Name="lcode_id" />
+    <Property Type="Int32" Name="classe" />
+    <NavigationProperty Name="Idioma" Relationship="imo4Model.FK_objectivo_Idiomas" FromRole="objectivo" ToRole="Idioma" />
+    <NavigationProperty Name="imovels" Relationship="imo4Model.FK_imovel_objectivo" FromRole="objectivo" ToRole="imovel" />
+  </EntityType>
+  <EntityType Name="OrdemdeCompra">
+    <Key>
+      <PropertyRef Name="OrderId" />
+    </Key>
+    <Property Type="Int32" Name="OrderId" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="DateTime" Name="OrderDate" />
+    <Property Type="String" Name="Username" MaxLength="256" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="FirstName" MaxLength="160" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="LastName" MaxLength="160" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="InvoiceInfo" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Phone" MaxLength="24" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Email" MaxLength="160" FixedLength="false" Unicode="true" />
+    <Property Type="Decimal" Name="Total" Nullable="false" Precision="10" Scale="2" />
+    <NavigationProperty Name="OrderDetails" Relationship="imo4Model.FK_OrderDetail_OrdemdeCompra" FromRole="OrdemdeCompra" ToRole="OrderDetail" />
+  </EntityType>
+  <EntityType Name="OrderDetail">
+    <Key>
+      <PropertyRef Name="OrderDetailId" />
+    </Key>
+    <Property Type="Int32" Name="OrderDetailId" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="Int32" Name="OrderId" Nullable="false" />
+    <Property Type="Int32" Name="SubscricaoId" Nullable="false" />
+    <Property Type="Decimal" Name="Price" Nullable="false" Precision="10" Scale="2" />
+    <NavigationProperty Name="OrdemdeCompra" Relationship="imo4Model.FK_OrderDetail_OrdemdeCompra" FromRole="OrderDetail" ToRole="OrdemdeCompra" />
+    <NavigationProperty Name="subscrico" Relationship="imo4Model.FK_OrderDetail_subscricoes" FromRole="OrderDetail" ToRole="subscrico" />
+  </EntityType>
+  <EntityType Name="subscrico">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Type="Int32" Name="id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="Int32" Name="numeromeses" Nullable="false" />
+    <Property Type="Int32" Name="numeroanuncios" Nullable="false" />
+    <Property Type="String" Name="identidade" Nullable="false" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Type="DateTime" Name="data_criacao_subscricao" Nullable="false" />
+    <Property Type="Decimal" Name="price" Nullable="false" Precision="10" Scale="2" />
+    <Property Type="Boolean" Name="pago" Nullable="false" />
+    <NavigationProperty Name="Carts" Relationship="imo4Model.FK_Cart_subscricoes" FromRole="subscrico" ToRole="Cart" />
+    <NavigationProperty Name="imovels" Relationship="imo4Model.FK_imovel_subscricoes" FromRole="subscrico" ToRole="imovel" />
+    <NavigationProperty Name="OrderDetails" Relationship="imo4Model.FK_OrderDetail_subscricoes" FromRole="subscrico" ToRole="OrderDetail" />
+  </EntityType>
+  <EntityType Name="sysdiagram">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Type="String" Name="name" Nullable="false" MaxLength="128" FixedLength="false" Unicode="true" />
+    <Property Type="Int32" Name="principal_id" Nullable="false" />
+    <Property Type="Int32" Name="diagram_id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="Int32" Name="version" />
+    <Property Type="Binary" Name="definition" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="tabelapreco">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Type="Int32" Name="id" Nullable="false" />
+    <Property Type="Decimal" Name="precomeses" Nullable="false" Precision="2" Scale="0" />
+    <Property Type="Decimal" Name="precoanuncios" Nullable="false" Precision="2" Scale="0" />
+  </EntityType>
+  <EntityType Name="tipologia">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Type="Int32" Name="id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="nome" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="imovels" Relationship="imo4Model.FK_imovel_tipologia" FromRole="tipologia" ToRole="imovel" />
+  </EntityType>
+  <EntityType Name="vw_aspnet_Applications">
+    <Key>
+      <PropertyRef Name="ApplicationName" />
+      <PropertyRef Name="LoweredApplicationName" />
+      <PropertyRef Name="ApplicationId" />
+    </Key>
+    <Property Type="String" Name="ApplicationName" Nullable="false" MaxLength="256" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="LoweredApplicationName" Nullable="false" MaxLength="256" FixedLength="false" Unicode="true" />
+    <Property Type="Guid" Name="ApplicationId" Nullable="false" />
+    <Property Type="String" Name="Description" MaxLength="256" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="vw_aspnet_MembershipUsers">
+    <Key>
+      <PropertyRef Name="UserId" />
+      <PropertyRef Name="PasswordFormat" />
+      <PropertyRef Name="IsApproved" />
+      <PropertyRef Name="IsLockedOut" />
+      <PropertyRef Name="CreateDate" />
+      <PropertyRef Name="LastLoginDate" />
+      <PropertyRef Name="LastPasswordChangedDate" />
+      <PropertyRef Name="LastLockoutDate" />
+      <PropertyRef Name="FailedPasswordAttemptCount" />
+      <PropertyRef Name="FailedPasswordAttemptWindowStart" />
+      <PropertyRef Name="FailedPasswordAnswerAttemptCount" />
+      <PropertyRef Name="FailedPasswordAnswerAttemptWindowStart" />
+      <PropertyRef Name="ApplicationId" />
+      <PropertyRef Name="UserName" />
+      <PropertyRef Name="IsAnonymous" />
+      <PropertyRef Name="LastActivityDate" />
+    </Key>
+    <Property Type="Guid" Name="UserId" Nullable="false" />
+    <Property Type="Int32" Name="PasswordFormat" Nullable="false" />
+    <Property Type="String" Name="MobilePIN" MaxLength="16" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Email" MaxLength="256" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="LoweredEmail" MaxLength="256" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="PasswordQuestion" MaxLength="256" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="PasswordAnswer" MaxLength="128" FixedLength="false" Unicode="true" />
+    <Property Type="Boolean" Name="IsApproved" Nullable="false" />
+    <Property Type="Boolean" Name="IsLockedOut" Nullable="false" />
+    <Property Type="DateTime" Name="CreateDate" Nullable="false" />
+    <Property Type="DateTime" Name="LastLoginDate" Nullable="false" />
+    <Property Type="DateTime" Name="LastPasswordChangedDate" Nullable="false" />
+    <Property Type="DateTime" Name="LastLockoutDate" Nullable="false" />
+    <Property Type="Int32" Name="FailedPasswordAttemptCount" Nullable="false" />
+    <Property Type="DateTime" Name="FailedPasswordAttemptWindowStart" Nullable="false" />
+    <Property Type="Int32" Name="FailedPasswordAnswerAttemptCount" Nullable="false" />
+    <Property Type="DateTime" Name="FailedPasswordAnswerAttemptWindowStart" Nullable="false" />
+    <Property Type="String" Name="Comment" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Type="Guid" Name="ApplicationId" Nullable="false" />
+    <Property Type="String" Name="UserName" Nullable="false" MaxLength="256" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="MobileAlias" MaxLength="16" FixedLength="false" Unicode="true" />
+    <Property Type="Boolean" Name="IsAnonymous" Nullable="false" />
+    <Property Type="DateTime" Name="LastActivityDate" Nullable="false" />
+  </EntityType>
+  <EntityType Name="vw_aspnet_Profiles">
+    <Key>
+      <PropertyRef Name="UserId" />
+      <PropertyRef Name="LastUpdatedDate" />
+    </Key>
+    <Property Type="Guid" Name="UserId" Nullable="false" />
+    <Property Type="DateTime" Name="LastUpdatedDate" Nullable="false" />
+    <Property Type="Int32" Name="DataSize" />
+  </EntityType>
+  <EntityType Name="vw_aspnet_Roles">
+    <Key>
+      <PropertyRef Name="ApplicationId" />
+      <PropertyRef Name="RoleId" />
+      <PropertyRef Name="RoleName" />
+      <PropertyRef Name="LoweredRoleName" />
+    </Key>
+    <Property Type="Guid" Name="ApplicationId" Nullable="false" />
+    <Property Type="Guid" Name="RoleId" Nullable="false" />
+    <Property Type="String" Name="RoleName" Nullable="false" MaxLength="256" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="LoweredRoleName" Nullable="false" MaxLength="256" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Description" MaxLength="256" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="vw_aspnet_Users">
+    <Key>
+      <PropertyRef Name="ApplicationId" />
+      <PropertyRef Name="UserId" />
+      <PropertyRef Name="UserName" />
+      <PropertyRef Name="LoweredUserName" />
+      <PropertyRef Name="IsAnonymous" />
+      <PropertyRef Name="LastActivityDate" />
+    </Key>
+    <Property Type="Guid" Name="ApplicationId" Nullable="false" />
+    <Property Type="Guid" Name="UserId" Nullable="false" />
+    <Property Type="String" Name="UserName" Nullable="false" MaxLength="256" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="LoweredUserName" Nullable="false" MaxLength="256" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="MobileAlias" MaxLength="16" FixedLength="false" Unicode="true" />
+    <Property Type="Boolean" Name="IsAnonymous" Nullable="false" />
+    <Property Type="DateTime" Name="LastActivityDate" Nullable="false" />
+  </EntityType>
+  <EntityType Name="vw_aspnet_UsersInRoles">
+    <Key>
+      <PropertyRef Name="UserId" />
+      <PropertyRef Name="RoleId" />
+    </Key>
+    <Property Type="Guid" Name="UserId" Nullable="false" />
+    <Property Type="Guid" Name="RoleId" Nullable="false" />
+  </EntityType>
+  <EntityType Name="vw_aspnet_WebPartState_Paths">
+    <Key>
+      <PropertyRef Name="ApplicationId" />
+      <PropertyRef Name="PathId" />
+      <PropertyRef Name="Path" />
+      <PropertyRef Name="LoweredPath" />
+    </Key>
+    <Property Type="Guid" Name="ApplicationId" Nullable="false" />
+    <Property Type="Guid" Name="PathId" Nullable="false" />
+    <Property Type="String" Name="Path" Nullable="false" MaxLength="256" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="LoweredPath" Nullable="false" MaxLength="256" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="vw_aspnet_WebPartState_Shared">
+    <Key>
+      <PropertyRef Name="PathId" />
+      <PropertyRef Name="LastUpdatedDate" />
+    </Key>
+    <Property Type="Guid" Name="PathId" Nullable="false" />
+    <Property Type="Int32" Name="DataSize" />
+    <Property Type="DateTime" Name="LastUpdatedDate" Nullable="false" />
+  </EntityType>
+  <EntityType Name="vw_aspnet_WebPartState_User">
+    <Key>
+      <PropertyRef Name="LastUpdatedDate" />
+    </Key>
+    <Property Type="Guid" Name="PathId" />
+    <Property Type="Guid" Name="UserId" />
+    <Property Type="Int32" Name="DataSize" />
+    <Property Type="DateTime" Name="LastUpdatedDate" Nullable="false" />
+  </EntityType>
+  <Association Name="FK__aspnet_Me__Appli__662B2B3B">
+    <End Type="imo4Model.aspnet_Applications" Role="aspnet_Applications" Multiplicity="1" />
+    <End Type="imo4Model.aspnet_Membership" Role="aspnet_Membership" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="aspnet_Applications">
+        <PropertyRef Name="ApplicationId" />
+      </Principal>
+      <Dependent Role="aspnet_Membership">
+        <PropertyRef Name="ApplicationId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__aspnet_Pa__Appli__1F63A897">
+    <End Type="imo4Model.aspnet_Applications" Role="aspnet_Applications" Multiplicity="1" />
+    <End Type="imo4Model.aspnet_Paths" Role="aspnet_Paths" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="aspnet_Applications">
+        <PropertyRef Name="ApplicationId" />
+      </Principal>
+      <Dependent Role="aspnet_Paths">
+        <PropertyRef Name="ApplicationId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__aspnet_Ro__Appli__0880433F">
+    <End Type="imo4Model.aspnet_Applications" Role="aspnet_Applications" Multiplicity="1" />
+    <End Type="imo4Model.aspnet_Roles" Role="aspnet_Roles" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="aspnet_Applications">
+        <PropertyRef Name="ApplicationId" />
+      </Principal>
+      <Dependent Role="aspnet_Roles">
+        <PropertyRef Name="ApplicationId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__aspnet_Us__Appli__5224328E">
+    <End Type="imo4Model.aspnet_Applications" Role="aspnet_Applications" Multiplicity="1" />
+    <End Type="imo4Model.aspnet_Users" Role="aspnet_Users" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="aspnet_Applications">
+        <PropertyRef Name="ApplicationId" />
+      </Principal>
+      <Dependent Role="aspnet_Users">
+        <PropertyRef Name="ApplicationId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__aspnet_Me__UserI__671F4F74">
+    <End Type="imo4Model.aspnet_Users" Role="aspnet_Users" Multiplicity="1" />
+    <End Type="imo4Model.aspnet_Membership" Role="aspnet_Membership" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="aspnet_Users">
+        <PropertyRef Name="UserId" />
+      </Principal>
+      <Dependent Role="aspnet_Membership">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__aspnet_Pe__PathI__2704CA5F">
+    <End Type="imo4Model.aspnet_Paths" Role="aspnet_Paths" Multiplicity="1" />
+    <End Type="imo4Model.aspnet_PersonalizationAllUsers" Role="aspnet_PersonalizationAllUsers" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="aspnet_Paths">
+        <PropertyRef Name="PathId" />
+      </Principal>
+      <Dependent Role="aspnet_PersonalizationAllUsers">
+        <PropertyRef Name="PathId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__aspnet_Pe__PathI__2CBDA3B5">
+    <End Type="imo4Model.aspnet_Paths" Role="aspnet_Paths" Multiplicity="0..1" />
+    <End Type="imo4Model.aspnet_PersonalizationPerUser" Role="aspnet_PersonalizationPerUser" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="aspnet_Paths">
+        <PropertyRef Name="PathId" />
+      </Principal>
+      <Dependent Role="aspnet_PersonalizationPerUser">
+        <PropertyRef Name="PathId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__aspnet_Pe__UserI__2DB1C7EE">
+    <End Type="imo4Model.aspnet_Users" Role="aspnet_Users" Multiplicity="0..1" />
+    <End Type="imo4Model.aspnet_PersonalizationPerUser" Role="aspnet_PersonalizationPerUser" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="aspnet_Users">
+        <PropertyRef Name="UserId" />
+      </Principal>
+      <Dependent Role="aspnet_PersonalizationPerUser">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__aspnet_Pr__UserI__7D0E9093">
+    <End Type="imo4Model.aspnet_Users" Role="aspnet_Users" Multiplicity="1" />
+    <End Type="imo4Model.aspnet_Profile" Role="aspnet_Profile" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="aspnet_Users">
+        <PropertyRef Name="UserId" />
+      </Principal>
+      <Dependent Role="aspnet_Profile">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Cart_subscricoes">
+    <End Type="imo4Model.subscrico" Role="subscrico" Multiplicity="1" />
+    <End Type="imo4Model.Cart" Role="Cart" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="subscrico">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="Cart">
+        <PropertyRef Name="SubscricaoId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Categorias_Idiomas">
+    <End Type="imo4Model.Idioma" Role="Idioma" Multiplicity="1" />
+    <End Type="imo4Model.Categoria" Role="Categoria" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Idioma">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="Categoria">
+        <PropertyRef Name="lcode_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_imovels_Categorias">
+    <End Type="imo4Model.Categoria" Role="Categoria" Multiplicity="0..1" />
+    <End Type="imo4Model.imovel" Role="imovel" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Categoria">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="imovel">
+        <PropertyRef Name="categoria_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_estado_Idiomas">
+    <End Type="imo4Model.Idioma" Role="Idioma" Multiplicity="0..1" />
+    <End Type="imo4Model.estado" Role="estado" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Idioma">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="estado">
+        <PropertyRef Name="lcode_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_imovels_estadoes">
+    <End Type="imo4Model.estado" Role="estado" Multiplicity="0..1" />
+    <End Type="imo4Model.imovel" Role="imovel" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="estado">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="imovel">
+        <PropertyRef Name="estado_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Fotos_imovel">
+    <End Type="imo4Model.imovel" Role="imovel" Multiplicity="1" />
+    <End Type="imo4Model.Foto" Role="Foto" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="imovel">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="Foto">
+        <PropertyRef Name="imovel_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_imovel_descricao_Idiomas">
+    <End Type="imo4Model.Idioma" Role="Idioma" Multiplicity="1" />
+    <End Type="imo4Model.imovel_descricao" Role="imovel_descricao" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Idioma">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="imovel_descricao">
+        <PropertyRef Name="lcode_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_objectivo_Idiomas">
+    <End Type="imo4Model.Idioma" Role="Idioma" Multiplicity="0..1" />
+    <End Type="imo4Model.objectivo" Role="objectivo" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Idioma">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="objectivo">
+        <PropertyRef Name="lcode_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_imovel_descricao_imovel">
+    <End Type="imo4Model.imovel" Role="imovel" Multiplicity="1" />
+    <End Type="imo4Model.imovel_descricao" Role="imovel_descricao" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="imovel">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="imovel_descricao">
+        <PropertyRef Name="imovel_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_imovel_objectivo">
+    <End Type="imo4Model.objectivo" Role="objectivo" Multiplicity="0..1" />
+    <End Type="imo4Model.imovel" Role="imovel" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="objectivo">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="imovel">
+        <PropertyRef Name="objectivo_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_imovel_subscricoes">
+    <End Type="imo4Model.subscrico" Role="subscrico" Multiplicity="0..1" />
+    <End Type="imo4Model.imovel" Role="imovel" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="subscrico">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="imovel">
+        <PropertyRef Name="subscricao_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_imovel_tipologia">
+    <End Type="imo4Model.tipologia" Role="tipologia" Multiplicity="0..1" />
+    <End Type="imo4Model.imovel" Role="imovel" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tipologia">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="imovel">
+        <PropertyRef Name="tipologia_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_OrderDetail_OrdemdeCompra">
+    <End Type="imo4Model.OrdemdeCompra" Role="OrdemdeCompra" Multiplicity="1" />
+    <End Type="imo4Model.OrderDetail" Role="OrderDetail" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="OrdemdeCompra">
+        <PropertyRef Name="OrderId" />
+      </Principal>
+      <Dependent Role="OrderDetail">
+        <PropertyRef Name="OrderId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_OrderDetail_subscricoes">
+    <End Type="imo4Model.subscrico" Role="subscrico" Multiplicity="1" />
+    <End Type="imo4Model.OrderDetail" Role="OrderDetail" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="subscrico">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="OrderDetail">
+        <PropertyRef Name="SubscricaoId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="aspnet_UsersInRoles">
+    <End Type="imo4Model.aspnet_Roles" Role="aspnet_Roles" Multiplicity="*" />
+    <End Type="imo4Model.aspnet_Users" Role="aspnet_Users" Multiplicity="*" />
+  </Association>
+</Schema>

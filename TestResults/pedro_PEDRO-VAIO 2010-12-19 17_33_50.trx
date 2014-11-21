@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="de1c3b9b-53fe-4e86-a8c3-31dba1d6d31a" name="pedro@PEDRO-VAIO 2010-12-19 17:33:50" runUser="pedro-VAIO\pedro" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Default Test Settings" id="5df0a91b-b39c-490a-b4e7-64df0fab366b">
+    <Deployment runDeploymentRoot="pedro_PEDRO-VAIO 2010-12-19 17_33_50">
+      <DeploymentItem filename="D:\IMO4\IMO4_11_2010\IMO4_nova_versao_euro\MvcIMO4\MvcIMO4\bin\MvcIMO4.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2010-12-19T17:33:50.1248450+00:00" queuing="2010-12-19T17:33:51.6644587+00:00" start="2010-12-19T17:33:51.7892589+00:00" finish="2010-12-19T17:34:06.5135224+00:00" />
+  <ResultSummary outcome="Error">
+    <Counters total="17" executed="10" passed="9" error="0" failed="0" timeout="0" aborted="1" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="7" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="PEDRO-VAIO" outcome="Error" timestamp="2010-12-19T17:34:06.4979224+00:00">
+        <Text>Test host process exited unexpectedly.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="ChangePassword_Post_ReturnsViewIfChangePasswordFails" storage="d:\imo4\imo4_11_2010\imo4_nova_versao_euro\mvcimo4\mvcimo4.tests\bin\release\mvcimo4.tests.dll" id="e1fe9756-4129-6c74-aea8-d6c11788a6ba">
+      <Execution id="39757230-4984-48b8-9ac6-f6a9c5702647" />
+      <TestMethod codeBase="D:/IMO4/IMO4_11_2010/IMO4_nova_versao_euro/MvcIMO4/MvcIMO4.Tests/bin/Release/MvcIMO4.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MvcIMO4.Tests.Controllers.AccountControllerTest, MvcIMO4.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ChangePassword_Post_ReturnsViewIfChangePasswordFails" />
+    </UnitTest>
+    <UnitTest name="ChangePassword_Get_ReturnsView" storage="d:\imo4\imo4_11_2010\imo4_nova_versao_euro\mvcimo4\mvcimo4.tests\bin\release\mvcimo4.tests.dll" id="70e80f56-1bd6-0dcb-1082-23e0df73488e">
+      <Execution id="19f54e8d-1c04-4ed7-bf49-c60078b6e3b1" />
+      <TestMethod codeBase="D:/IMO4/IMO4_11_2010/IMO4_nova_versao_euro/MvcIMO4/MvcIMO4.Tests/bin/Release/MvcIMO4.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MvcIMO4.Tests.Controllers.AccountControllerTest, MvcIMO4.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ChangePassword_Get_ReturnsView" />
+    </UnitTest>
+    <UnitTest name="LogOn_Get_ReturnsView" storage="d:\imo4\imo4_11_2010\imo4_nova_versao_euro\mvcimo4\mvcimo4.tests\bin\release\mvcimo4.tests.dll" id="e0172ffb-2700-3e88-728a-a9b9044284d0">
+      <Execution id="787f3811-15a1-4e95-a72e-0f9e87e04677" />
+      <TestMethod codeBase="D:/IMO4/IMO4_11_2010/IMO4_nova_versao_euro/MvcIMO4/MvcIMO4.Tests/bin/Release/MvcIMO4.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MvcIMO4.Tests.Controllers.AccountControllerTest, MvcIMO4.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LogOn_Get_ReturnsView" />
+    </UnitTest>
+    <UnitTest name="ChangePasswordSuccess_ReturnsView" storage="d:\imo4\imo4_11_2010\imo4_nova_versao_euro\mvcimo4\mvcimo4.tests\bin\release\mvcimo4.tests.dll" id="09c8b558-5390-7301-4ad3-ba3e72aa18f1">
+      <Execution id="706012d9-748d-432a-bfc2-0a47745d2453" />
+      <TestMethod codeBase="D:/IMO4/IMO4_11_2010/IMO4_nova_versao_euro/MvcIMO4/MvcIMO4.Tests/bin/Release/MvcIMO4.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MvcIMO4.Tests.Controllers.AccountControllerTest, MvcIMO4.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ChangePasswordSuccess_ReturnsView" />
+    </UnitTest>
+    <UnitTest name="Register_Post_ReturnsViewIfModelStateIsInvalid" storage="d:\imo4\imo4_11_2010\imo4_nova_versao_euro\mvcimo4\mvcimo4.tests\bin\release\mvcimo4.tests.dll" id="274286aa-0d40-6bca-36a7-d2b0e6473262">
+      <Execution id="fe167d69-76ea-4a9c-b306-aad584b9f266" />
+      <TestMethod codeBase="D:/IMO4/IMO4_11_2010/IMO4_nova_versao_euro/MvcIMO4/MvcIMO4.Tests/bin/Release/MvcIMO4.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MvcIMO4.Tests.Controllers.AccountControllerTest, MvcIMO4.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Register_Post_ReturnsViewIfModelStateIsInvalid" />
+    </UnitTest>
+    <UnitTest name="LogOn_Post_ReturnsRedirectOnSuccess_WithReturnUrl" storage="d:\imo4\imo4_11_2010\imo4_nova_versao_euro\mvcimo4\mvcimo4.tests\bin\release\mvcimo4.tests.dll" id="68c76a85-3d96-1a65-c1a3-477ca28c1f5e">
+      <Execution id="8eeac9d1-a632-4c56-9d61-0672156bcf57" />
+      <TestMethod codeBase="D:/IMO4/IMO4_11_2010/IMO4_nova_versao_euro/MvcIMO4/MvcIMO4.Tests/bin/Release/MvcIMO4.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MvcIMO4.Tests.Controllers.AccountControllerTest, MvcIMO4.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LogOn_Post_ReturnsRedirectOnSuccess_WithReturnUrl" />
+    </UnitTest>
+    <UnitTest name="LogOn_Post_ReturnsViewIfModelStateIsInvalid" storage="d:\imo4\imo4_11_2010\imo4_nova_versao_euro\mvcimo4\mvcimo4.tests\bin\release\mvcimo4.tests.dll" id="a1ec2384-f683-0dfc-2e78-0d0e20e2e7ec">
+      <Execution id="03f0e307-ba30-46d6-a92a-67214206893e" />
+      <TestMethod codeBase="D:/IMO4/IMO4_11_2010/IMO4_nova_versao_euro/MvcIMO4/MvcIMO4.Tests/bin/Release/MvcIMO4.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MvcIMO4.Tests.Controllers.AccountControllerTest, MvcIMO4.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LogOn_Post_ReturnsViewIfModelStateIsInvalid" />
+    </UnitTest>
+    <UnitTest name="Register_Post_ReturnsViewIfRegistrationFails" storage="d:\imo4\imo4_11_2010\imo4_nova_versao_euro\mvcimo4\mvcimo4.tests\bin\release\mvcimo4.tests.dll" id="ce063531-0d6e-2b71-b412-5c3d1d0c0771">
+      <Execution id="25505cc6-a67a-4f78-8fdd-f9828dfd27ae" />
+      <TestMethod codeBase="D:/IMO4/IMO4_11_2010/IMO4_nova_versao_euro/MvcIMO4/MvcIMO4.Tests/bin/Release/MvcIMO4.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MvcIMO4.Tests.Controllers.AccountControllerTest, MvcIMO4.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Register_Post_ReturnsViewIfRegistrationFails" />
+    </UnitTest>
+    <UnitTest name="Register_Get_ReturnsView" storage="d:\imo4\imo4_11_2010\imo4_nova_versao_euro\mvcimo4\mvcimo4.tests\bin\release\mvcimo4.tests.dll" id="d073b487-4be8-736a-d9a9-573962ce2303">
+      <Execution id="3cf94285-8339-458a-88f8-0ba3fff8b885" />
+      <TestMethod codeBase="D:/IMO4/IMO4_11_2010/IMO4_nova_versao_euro/MvcIMO4/MvcIMO4.Tests/bin/Release/MvcIMO4.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MvcIMO4.Tests.Controllers.AccountControllerTest, MvcIMO4.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Register_Get_ReturnsView" />
+    </UnitTest>
+    <UnitTest name="ChangePassword_Post_ReturnsViewIfModelStateIsInvalid" storage="d:\imo4\imo4_11_2010\imo4_nova_versao_euro\mvcimo4\mvcimo4.tests\bin\release\mvcimo4.tests.dll" id="62370513-b28d-33d9-4059-91d0d3634e2a">
+      <Execution id="7f5dd4b0-d477-4d44-a009-69313b200570" />
+      <TestMethod codeBase="D:/IMO4/IMO4_11_2010/IMO4_nova_versao_euro/MvcIMO4/MvcIMO4.Tests/bin/Release/MvcIMO4.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MvcIMO4.Tests.Controllers.AccountControllerTest, MvcIMO4.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ChangePassword_Post_ReturnsViewIfModelStateIsInvalid" />
+    </UnitTest>
+    <UnitTest name="LogOn_Post_ReturnsViewIfValidateUserFails" storage="d:\imo4\imo4_11_2010\imo4_nova_versao_euro\mvcimo4\mvcimo4.tests\bin\release\mvcimo4.tests.dll" id="00ad2882-42db-ad3c-c5de-2d9e2a03733d">
+      <Execution id="52172f05-6de9-4826-953c-8c844392d075" />
+      <TestMethod codeBase="D:/IMO4/IMO4_11_2010/IMO4_nova_versao_euro/MvcIMO4/MvcIMO4.Tests/bin/Release/MvcIMO4.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MvcIMO4.Tests.Controllers.AccountControllerTest, MvcIMO4.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LogOn_Post_ReturnsViewIfValidateUserFails" />
+    </UnitTest>
+    <UnitTest name="About" storage="d:\imo4\imo4_11_2010\imo4_nova_versao_euro\mvcimo4\mvcimo4.tests\bin\release\mvcimo4.tests.dll" id="77948bb4-33c9-4880-4046-cd64d2c9aa1f">
+      <Execution id="c6cc140e-7c17-4901-9498-0d6644dd091c" />
+      <TestMethod codeBase="D:/IMO4/IMO4_11_2010/IMO4_nova_versao_euro/MvcIMO4/MvcIMO4.Tests/bin/Release/MvcIMO4.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MvcIMO4.Tests.Controllers.HomeControllerTest, MvcIMO4.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="About" />
+    </UnitTest>
+    <UnitTest name="Index" storage="d:\imo4\imo4_11_2010\imo4_nova_versao_euro\mvcimo4\mvcimo4.tests\bin\release\mvcimo4.tests.dll" id="b0e239fe-adb9-9089-e742-ff476490c098">
+      <Execution id="4573b172-65cd-43eb-8b57-695fe5da0b91" />
+      <TestMethod codeBase="D:/IMO4/IMO4_11_2010/IMO4_nova_versao_euro/MvcIMO4/MvcIMO4.Tests/bin/Release/MvcIMO4.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MvcIMO4.Tests.Controllers.HomeControllerTest, MvcIMO4.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Index" />
+    </UnitTest>
+    <UnitTest name="LogOff_LogsOutAndRedirects" storage="d:\imo4\imo4_11_2010\imo4_nova_versao_euro\mvcimo4\mvcimo4.tests\bin\release\mvcimo4.tests.dll" id="36fcbacc-1428-98c1-e929-41b552a45c81">
+      <Execution id="7c9d07d6-fc38-4650-945d-6e49a218af64" />
+      <TestMethod codeBase="D:/IMO4/IMO4_11_2010/IMO4_nova_versao_euro/MvcIMO4/MvcIMO4.Tests/bin/Release/MvcIMO4.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MvcIMO4.Tests.Controllers.AccountControllerTest, MvcIMO4.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LogOff_LogsOutAndRedirects" />
+    </UnitTest>
+    <UnitTest name="LogOn_Post_ReturnsRedirectOnSuccess_WithoutReturnUrl" storage="d:\imo4\imo4_11_2010\imo4_nova_versao_euro\mvcimo4\mvcimo4.tests\bin\release\mvcimo4.tests.dll" id="d4601bc7-c43d-5af0-388b-c6c86e668e52">
+      <Execution id="29c695b9-b93f-49db-ba03-be5267588bb3" />
+      <TestMethod codeBase="D:/IMO4/IMO4_11_2010/IMO4_nova_versao_euro/MvcIMO4/MvcIMO4.Tests/bin/Release/MvcIMO4.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MvcIMO4.Tests.Controllers.AccountControllerTest, MvcIMO4.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LogOn_Post_ReturnsRedirectOnSuccess_WithoutReturnUrl" />
+    </UnitTest>
+    <UnitTest name="ChangePassword_Post_ReturnsRedirectOnSuccess" storage="d:\imo4\imo4_11_2010\imo4_nova_versao_euro\mvcimo4\mvcimo4.tests\bin\release\mvcimo4.tests.dll" id="53a46980-2461-6546-8388-1128be60186b">
+      <Execution id="f6fca903-2d60-4203-b2d4-93853e89f93a" />
+      <TestMethod codeBase="D:/IMO4/IMO4_11_2010/IMO4_nova_versao_euro/MvcIMO4/MvcIMO4.Tests/bin/Release/MvcIMO4.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MvcIMO4.Tests.Controllers.AccountControllerTest, MvcIMO4.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ChangePassword_Post_ReturnsRedirectOnSuccess" />
+    </UnitTest>
+    <UnitTest name="Register_Post_ReturnsRedirectOnSuccess" storage="d:\imo4\imo4_11_2010\imo4_nova_versao_euro\mvcimo4\mvcimo4.tests\bin\release\mvcimo4.tests.dll" id="7b5e0fe3-3b43-aa93-d0c5-d135cfec8234">
+      <Execution id="ab9d56dd-2ab1-4bb0-84e8-9e607ac4eaa5" />
+      <TestMethod codeBase="D:/IMO4/IMO4_11_2010/IMO4_nova_versao_euro/MvcIMO4/MvcIMO4.Tests/bin/Release/MvcIMO4.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MvcIMO4.Tests.Controllers.AccountControllerTest, MvcIMO4.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Register_Post_ReturnsRedirectOnSuccess" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="00ad2882-42db-ad3c-c5de-2d9e2a03733d" executionId="52172f05-6de9-4826-953c-8c844392d075" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="09c8b558-5390-7301-4ad3-ba3e72aa18f1" executionId="706012d9-748d-432a-bfc2-0a47745d2453" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="274286aa-0d40-6bca-36a7-d2b0e6473262" executionId="fe167d69-76ea-4a9c-b306-aad584b9f266" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="36fcbacc-1428-98c1-e929-41b552a45c81" executionId="7c9d07d6-fc38-4650-945d-6e49a218af64" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="53a46980-2461-6546-8388-1128be60186b" executionId="f6fca903-2d60-4203-b2d4-93853e89f93a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="62370513-b28d-33d9-4059-91d0d3634e2a" executionId="7f5dd4b0-d477-4d44-a009-69313b200570" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="68c76a85-3d96-1a65-c1a3-477ca28c1f5e" executionId="8eeac9d1-a632-4c56-9d61-0672156bcf57" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="70e80f56-1bd6-0dcb-1082-23e0df73488e" executionId="19f54e8d-1c04-4ed7-bf49-c60078b6e3b1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="77948bb4-33c9-4880-4046-cd64d2c9aa1f" executionId="c6cc140e-7c17-4901-9498-0d6644dd091c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7b5e0fe3-3b43-aa93-d0c5-d135cfec8234" executionId="ab9d56dd-2ab1-4bb0-84e8-9e607ac4eaa5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a1ec2384-f683-0dfc-2e78-0d0e20e2e7ec" executionId="03f0e307-ba30-46d6-a92a-67214206893e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b0e239fe-adb9-9089-e742-ff476490c098" executionId="4573b172-65cd-43eb-8b57-695fe5da0b91" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ce063531-0d6e-2b71-b412-5c3d1d0c0771" executionId="25505cc6-a67a-4f78-8fdd-f9828dfd27ae" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d073b487-4be8-736a-d9a9-573962ce2303" executionId="3cf94285-8339-458a-88f8-0ba3fff8b885" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d4601bc7-c43d-5af0-388b-c6c86e668e52" executionId="29c695b9-b93f-49db-ba03-be5267588bb3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e0172ffb-2700-3e88-728a-a9b9044284d0" executionId="787f3811-15a1-4e95-a72e-0f9e87e04677" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e1fe9756-4129-6c74-aea8-d6c11788a6ba" executionId="39757230-4984-48b8-9ac6-f6a9c5702647" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="52172f05-6de9-4826-953c-8c844392d075" testId="00ad2882-42db-ad3c-c5de-2d9e2a03733d" testName="LogOn_Post_ReturnsViewIfValidateUserFails" computerName="PEDRO-VAIO" duration="00:00:00.0453116" startTime="2010-12-19T17:33:51.8828591+00:00" endTime="2010-12-19T17:33:53.6300622+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="52172f05-6de9-4826-953c-8c844392d075">
+    </UnitTestResult>
+    <UnitTestResult executionId="706012d9-748d-432a-bfc2-0a47745d2453" testId="09c8b558-5390-7301-4ad3-ba3e72aa18f1" testName="ChangePasswordSuccess_ReturnsView" computerName="PEDRO-VAIO" duration="00:00:00.0004381" startTime="2010-12-19T17:33:53.6612622+00:00" endTime="2010-12-19T17:33:53.6612622+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="706012d9-748d-432a-bfc2-0a47745d2453">
+    </UnitTestResult>
+    <UnitTestResult executionId="fe167d69-76ea-4a9c-b306-aad584b9f266" testId="274286aa-0d40-6bca-36a7-d2b0e6473262" testName="Register_Post_ReturnsViewIfModelStateIsInvalid" computerName="PEDRO-VAIO" duration="00:00:00.0019021" startTime="2010-12-19T17:33:53.6768623+00:00" endTime="2010-12-19T17:33:53.6924623+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="fe167d69-76ea-4a9c-b306-aad584b9f266">
+    </UnitTestResult>
+    <UnitTestResult executionId="7c9d07d6-fc38-4650-945d-6e49a218af64" testId="36fcbacc-1428-98c1-e929-41b552a45c81" testName="LogOff_LogsOutAndRedirects" computerName="PEDRO-VAIO" duration="00:00:00.0022993" startTime="2010-12-19T17:33:53.7080623+00:00" endTime="2010-12-19T17:33:53.7236623+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7c9d07d6-fc38-4650-945d-6e49a218af64">
+    </UnitTestResult>
+    <UnitTestResult executionId="f6fca903-2d60-4203-b2d4-93853e89f93a" testId="53a46980-2461-6546-8388-1128be60186b" testName="ChangePassword_Post_ReturnsRedirectOnSuccess" computerName="PEDRO-VAIO" duration="00:00:00.0100894" startTime="2010-12-19T17:33:53.7236623+00:00" endTime="2010-12-19T17:33:53.7548624+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f6fca903-2d60-4203-b2d4-93853e89f93a">
+    </UnitTestResult>
+    <UnitTestResult executionId="7f5dd4b0-d477-4d44-a009-69313b200570" testId="62370513-b28d-33d9-4059-91d0d3634e2a" testName="ChangePassword_Post_ReturnsViewIfModelStateIsInvalid" computerName="PEDRO-VAIO" duration="00:00:00.0004194" startTime="2010-12-19T17:33:53.7548624+00:00" endTime="2010-12-19T17:33:53.7704624+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7f5dd4b0-d477-4d44-a009-69313b200570">
+    </UnitTestResult>
+    <UnitTestResult executionId="8eeac9d1-a632-4c56-9d61-0672156bcf57" testId="68c76a85-3d96-1a65-c1a3-477ca28c1f5e" testName="LogOn_Post_ReturnsRedirectOnSuccess_WithReturnUrl" computerName="PEDRO-VAIO" duration="00:00:00.0016467" startTime="2010-12-19T17:33:53.7704624+00:00" endTime="2010-12-19T17:33:53.7860624+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8eeac9d1-a632-4c56-9d61-0672156bcf57">
+    </UnitTestResult>
+    <UnitTestResult executionId="19f54e8d-1c04-4ed7-bf49-c60078b6e3b1" testId="70e80f56-1bd6-0dcb-1082-23e0df73488e" testName="ChangePassword_Get_ReturnsView" computerName="PEDRO-VAIO" duration="00:00:00.0004624" startTime="2010-12-19T17:33:53.7860624+00:00" endTime="2010-12-19T17:33:53.8016625+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="19f54e8d-1c04-4ed7-bf49-c60078b6e3b1">
+    </UnitTestResult>
+    <UnitTestResult executionId="c6cc140e-7c17-4901-9498-0d6644dd091c" testId="77948bb4-33c9-4880-4046-cd64d2c9aa1f" testName="About" computerName="PEDRO-VAIO" duration="00:00:00.0007619" startTime="2010-12-19T17:33:53.8172625+00:00" endTime="2010-12-19T17:33:53.8172625+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c6cc140e-7c17-4901-9498-0d6644dd091c">
+    </UnitTestResult>
+    <UnitTestResult executionId="ab9d56dd-2ab1-4bb0-84e8-9e607ac4eaa5" testId="7b5e0fe3-3b43-aa93-d0c5-d135cfec8234" testName="Register_Post_ReturnsRedirectOnSuccess" computerName="PEDRO-VAIO" duration="00:00:12.6650599" startTime="2010-12-19T17:33:53.8328625+00:00" endTime="2010-12-19T17:34:06.4979224+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Aborted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ab9d56dd-2ab1-4bb0-84e8-9e607ac4eaa5">
+    </UnitTestResult>
+    <UnitTestResult executionId="03f0e307-ba30-46d6-a92a-67214206893e" testId="a1ec2384-f683-0dfc-2e78-0d0e20e2e7ec" testName="LogOn_Post_ReturnsViewIfModelStateIsInvalid" computerName="PEDRO-VAIO" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="03f0e307-ba30-46d6-a92a-67214206893e">
+    </UnitTestResult>
+    <UnitTestResult executionId="4573b172-65cd-43eb-8b57-695fe5da0b91" testId="b0e239fe-adb9-9089-e742-ff476490c098" testName="Index" computerName="PEDRO-VAIO" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4573b172-65cd-43eb-8b57-695fe5da0b91">
+    </UnitTestResult>
+    <UnitTestResult executionId="25505cc6-a67a-4f78-8fdd-f9828dfd27ae" testId="ce063531-0d6e-2b71-b412-5c3d1d0c0771" testName="Register_Post_ReturnsViewIfRegistrationFails" computerName="PEDRO-VAIO" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="25505cc6-a67a-4f78-8fdd-f9828dfd27ae">
+    </UnitTestResult>
+    <UnitTestResult executionId="3cf94285-8339-458a-88f8-0ba3fff8b885" testId="d073b487-4be8-736a-d9a9-573962ce2303" testName="Register_Get_ReturnsView" computerName="PEDRO-VAIO" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3cf94285-8339-458a-88f8-0ba3fff8b885">
+    </UnitTestResult>
+    <UnitTestResult executionId="29c695b9-b93f-49db-ba03-be5267588bb3" testId="d4601bc7-c43d-5af0-388b-c6c86e668e52" testName="LogOn_Post_ReturnsRedirectOnSuccess_WithoutReturnUrl" computerName="PEDRO-VAIO" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="29c695b9-b93f-49db-ba03-be5267588bb3">
+    </UnitTestResult>
+    <UnitTestResult executionId="787f3811-15a1-4e95-a72e-0f9e87e04677" testId="e0172ffb-2700-3e88-728a-a9b9044284d0" testName="LogOn_Get_ReturnsView" computerName="PEDRO-VAIO" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="787f3811-15a1-4e95-a72e-0f9e87e04677">
+    </UnitTestResult>
+    <UnitTestResult executionId="39757230-4984-48b8-9ac6-f6a9c5702647" testId="e1fe9756-4129-6c74-aea8-d6c11788a6ba" testName="ChangePassword_Post_ReturnsViewIfChangePasswordFails" computerName="PEDRO-VAIO" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="39757230-4984-48b8-9ac6-f6a9c5702647">
+    </UnitTestResult>
+  </Results>
+</TestRun>

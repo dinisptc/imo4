@@ -1,0 +1,119 @@
+D:\IMO4\IMO4_nova_versao_euro\MvcIMO4\MvcIMO4.Tests\bin\Debug\MvcIMO4.Tests.dll.config
+D:\IMO4\IMO4_nova_versao_euro\MvcIMO4\MvcIMO4.Tests\bin\Debug\MvcIMO4.Tests.dll
+D:\IMO4\IMO4_nova_versao_euro\MvcIMO4\MvcIMO4.Tests\bin\Debug\MvcIMO4.Tests.pdb
+D:\IMO4\IMO4_nova_versao_euro\MvcIMO4\MvcIMO4.Tests\bin\Debug\MvcIMO4.dll
+D:\IMO4\IMO4_nova_versao_euro\MvcIMO4\MvcIMO4.Tests\bin\Debug\DotNetOpenAuth.dll
+D:\IMO4\IMO4_nova_versao_euro\MvcIMO4\MvcIMO4.Tests\bin\Debug\DDay.iCal.dll
+D:\IMO4\IMO4_nova_versao_euro\MvcIMO4\MvcIMO4.Tests\bin\Debug\NLog.dll
+D:\IMO4\IMO4_nova_versao_euro\MvcIMO4\MvcIMO4.Tests\bin\Debug\Elmah.dll
+D:\IMO4\IMO4_nova_versao_euro\MvcIMO4\MvcIMO4.Tests\bin\Debug\antlr.runtime.dll
+D:\IMO4\IMO4_nova_versao_euro\MvcIMO4\MvcIMO4.Tests\bin\Debug\MvcIMO4.pdb
+D:\IMO4\IMO4_nova_versao_euro\MvcIMO4\MvcIMO4.Tests\bin\Debug\DotNetOpenAuth.pdb
+D:\IMO4\IMO4_nova_versao_euro\MvcIMO4\MvcIMO4.Tests\bin\Debug\NLog.xml
+D:\IMO4\IMO4_nova_versao_euro\MvcIMO4\MvcIMO4.Tests\bin\Debug\Elmah.pdb
+D:\IMO4\IMO4_nova_versao_euro\MvcIMO4\MvcIMO4.Tests\bin\Debug\Elmah.xml
+D:\IMO4\IMO4_nova_versao_euro\MvcIMO4\MvcIMO4.Tests\bin\Debug\de\MvcIMO4.resources.dll
+D:\IMO4\IMO4_nova_versao_euro\MvcIMO4\MvcIMO4.Tests\bin\Debug\es\MvcIMO4.resources.dll
+D:\IMO4\IMO4_nova_versao_euro\MvcIMO4\MvcIMO4.Tests\bin\Debug\fr\MvcIMO4.resources.dll
+D:\IMO4\IMO4_nova_versao_euro\MvcIMO4\MvcIMO4.Tests\bin\Debug\pt\MvcIMO4.resources.dll
+D:\IMO4\IMO4_nova_versao_euro\MvcIMO4\MvcIMO4.Tests\obj\Debug\ResolveAssemblyReference.cache
+D:\IMO4\IMO4_nova_versao_euro\MvcIMO4\MvcIMO4.Tests\obj\Debug\MvcIMO4.Tests.dll
+D:\IMO4\IMO4_nova_versao_euro\MvcIMO4\MvcIMO4.Tests\obj\Debug\MvcIMO4.Tests.pdb
+D:\IMO4\IMO4_nova_versao_euro (27)\IMO4_nova_versao_euro\MvcIMO4\MvcIMO4.Tests\bin\Debug\MvcIMO4.Tests.dll.config
+D:\IMO4\IMO4_nova_versao_euro (27)\IMO4_nova_versao_euro\MvcIMO4\MvcIMO4.Tests\bin\Debug\MvcIMO4.Tests.dll
+D:\IMO4\IMO4_nova_versao_euro (27)\IMO4_nova_versao_euro\MvcIMO4\MvcIMO4.Tests\bin\Debug\MvcIMO4.Tests.pdb
+D:\IMO4\IMO4_nova_versao_euro (27)\IMO4_nova_versao_euro\MvcIMO4\MvcIMO4.Tests\bin\Debug\MvcIMO4.dll
+D:\IMO4\IMO4_nova_versao_euro (27)\IMO4_nova_versao_euro\MvcIMO4\MvcIMO4.Tests\bin\Debug\NLog.dll
+D:\IMO4\IMO4_nova_versao_euro (27)\IMO4_nova_versao_euro\MvcIMO4\MvcIMO4.Tests\bin\Debug\MvcIMO4.pdb
+D:\IMO4\IMO4_nova_versao_euro (27)\IMO4_nova_versao_euro\MvcIMO4\MvcIMO4.Tests\bin\Debug\NLog.xml
+D:\IMO4\IMO4_nova_versao_euro (27)\IMO4_nova_versao_euro\MvcIMO4\MvcIMO4.Tests\bin\Debug\de\MvcIMO4.resources.dll
+D:\IMO4\IMO4_nova_versao_euro (27)\IMO4_nova_versao_euro\MvcIMO4\MvcIMO4.Tests\bin\Debug\es\MvcIMO4.resources.dll
+D:\IMO4\IMO4_nova_versao_euro (27)\IMO4_nova_versao_euro\MvcIMO4\MvcIMO4.Tests\bin\Debug\fr\MvcIMO4.resources.dll
+D:\IMO4\IMO4_nova_versao_euro (27)\IMO4_nova_versao_euro\MvcIMO4\MvcIMO4.Tests\bin\Debug\pt\MvcIMO4.resources.dll
+D:\IMO4\IMO4_nova_versao_euro (27)\IMO4_nova_versao_euro\MvcIMO4\MvcIMO4.Tests\obj\Debug\ResolveAssemblyReference.cache
+D:\IMO4\IMO4_nova_versao_euro (27)\IMO4_nova_versao_euro\MvcIMO4\MvcIMO4.Tests\obj\Debug\MvcIMO4.Tests.dll
+D:\IMO4\IMO4_nova_versao_euro (27)\IMO4_nova_versao_euro\MvcIMO4\MvcIMO4.Tests\obj\Debug\MvcIMO4.Tests.pdb
+D:\IMO4\IMO4_11_2010\IMO4_nova_versao_euro\MvcIMO4\MvcIMO4.Tests\bin\Debug\MvcIMO4.Tests.dll.config
+D:\IMO4\IMO4_11_2010\IMO4_nova_versao_euro\MvcIMO4\MvcIMO4.Tests\bin\Debug\MvcIMO4.Tests.dll
+D:\IMO4\IMO4_11_2010\IMO4_nova_versao_euro\MvcIMO4\MvcIMO4.Tests\bin\Debug\MvcIMO4.Tests.pdb
+D:\IMO4\IMO4_11_2010\IMO4_nova_versao_euro\MvcIMO4\MvcIMO4.Tests\bin\Debug\MvcIMO4.dll
+D:\IMO4\IMO4_11_2010\IMO4_nova_versao_euro\MvcIMO4\MvcIMO4.Tests\bin\Debug\NLog.dll
+D:\IMO4\IMO4_11_2010\IMO4_nova_versao_euro\MvcIMO4\MvcIMO4.Tests\bin\Debug\MvcIMO4.pdb
+D:\IMO4\IMO4_11_2010\IMO4_nova_versao_euro\MvcIMO4\MvcIMO4.Tests\bin\Debug\NLog.xml
+D:\IMO4\IMO4_11_2010\IMO4_nova_versao_euro\MvcIMO4\MvcIMO4.Tests\bin\Debug\de\MvcIMO4.resources.dll
+D:\IMO4\IMO4_11_2010\IMO4_nova_versao_euro\MvcIMO4\MvcIMO4.Tests\bin\Debug\es\MvcIMO4.resources.dll
+D:\IMO4\IMO4_11_2010\IMO4_nova_versao_euro\MvcIMO4\MvcIMO4.Tests\bin\Debug\fr\MvcIMO4.resources.dll
+D:\IMO4\IMO4_11_2010\IMO4_nova_versao_euro\MvcIMO4\MvcIMO4.Tests\bin\Debug\pt\MvcIMO4.resources.dll
+D:\IMO4\IMO4_11_2010\IMO4_nova_versao_euro\MvcIMO4\MvcIMO4.Tests\obj\Debug\ResolveAssemblyReference.cache
+D:\IMO4\IMO4_11_2010\IMO4_nova_versao_euro\MvcIMO4\MvcIMO4.Tests\obj\Debug\MvcIMO4.Tests.dll
+D:\IMO4\IMO4_11_2010\IMO4_nova_versao_euro\MvcIMO4\MvcIMO4.Tests\obj\Debug\MvcIMO4.Tests.pdb
+D:\IMO4\IMO4_MVC_2011\MvcIMO4\MvcIMO4.Tests\bin\Debug\MvcIMO4.Tests.dll.config
+D:\IMO4\IMO4_MVC_2011\MvcIMO4\MvcIMO4.Tests\bin\Debug\MvcIMO4.Tests.dll
+D:\IMO4\IMO4_MVC_2011\MvcIMO4\MvcIMO4.Tests\bin\Debug\MvcIMO4.Tests.pdb
+D:\IMO4\IMO4_MVC_2011\MvcIMO4\MvcIMO4.Tests\bin\Debug\MvcIMO4.dll
+D:\IMO4\IMO4_MVC_2011\MvcIMO4\MvcIMO4.Tests\bin\Debug\NLog.dll
+D:\IMO4\IMO4_MVC_2011\MvcIMO4\MvcIMO4.Tests\bin\Debug\MvcIMO4.pdb
+D:\IMO4\IMO4_MVC_2011\MvcIMO4\MvcIMO4.Tests\bin\Debug\NLog.xml
+D:\IMO4\IMO4_MVC_2011\MvcIMO4\MvcIMO4.Tests\bin\Debug\de\MvcIMO4.resources.dll
+D:\IMO4\IMO4_MVC_2011\MvcIMO4\MvcIMO4.Tests\bin\Debug\es\MvcIMO4.resources.dll
+D:\IMO4\IMO4_MVC_2011\MvcIMO4\MvcIMO4.Tests\bin\Debug\fr\MvcIMO4.resources.dll
+D:\IMO4\IMO4_MVC_2011\MvcIMO4\MvcIMO4.Tests\bin\Debug\pt\MvcIMO4.resources.dll
+D:\IMO4\IMO4_MVC_2011\MvcIMO4\MvcIMO4.Tests\obj\Debug\ResolveAssemblyReference.cache
+D:\IMO4\IMO4_MVC_2011\MvcIMO4\MvcIMO4.Tests\obj\Debug\MvcIMO4.Tests.dll
+D:\IMO4\IMO4_MVC_2011\MvcIMO4\MvcIMO4.Tests\obj\Debug\MvcIMO4.Tests.pdb
+D:\2010-\IMO4\IMO4_MVC_2011\MvcIMO4\MvcIMO4.Tests\bin\Debug\MvcIMO4.Tests.dll.config
+D:\2010-\IMO4\IMO4_MVC_2011\MvcIMO4\MvcIMO4.Tests\bin\Debug\MvcIMO4.Tests.dll
+D:\2010-\IMO4\IMO4_MVC_2011\MvcIMO4\MvcIMO4.Tests\bin\Debug\MvcIMO4.Tests.pdb
+D:\2010-\IMO4\IMO4_MVC_2011\MvcIMO4\MvcIMO4.Tests\bin\Debug\MvcIMO4.dll
+D:\2010-\IMO4\IMO4_MVC_2011\MvcIMO4\MvcIMO4.Tests\bin\Debug\NLog.dll
+D:\2010-\IMO4\IMO4_MVC_2011\MvcIMO4\MvcIMO4.Tests\bin\Debug\MvcIMO4.pdb
+D:\2010-\IMO4\IMO4_MVC_2011\MvcIMO4\MvcIMO4.Tests\bin\Debug\NLog.xml
+D:\2010-\IMO4\IMO4_MVC_2011\MvcIMO4\MvcIMO4.Tests\bin\Debug\de\MvcIMO4.resources.dll
+D:\2010-\IMO4\IMO4_MVC_2011\MvcIMO4\MvcIMO4.Tests\bin\Debug\es\MvcIMO4.resources.dll
+D:\2010-\IMO4\IMO4_MVC_2011\MvcIMO4\MvcIMO4.Tests\bin\Debug\fr\MvcIMO4.resources.dll
+D:\2010-\IMO4\IMO4_MVC_2011\MvcIMO4\MvcIMO4.Tests\bin\Debug\pt\MvcIMO4.resources.dll
+D:\2010-\IMO4\IMO4_MVC_2011\MvcIMO4\MvcIMO4.Tests\obj\Debug\ResolveAssemblyReference.cache
+D:\2010-\IMO4\IMO4_MVC_2011\MvcIMO4\MvcIMO4.Tests\obj\Debug\MvcIMO4.Tests.dll
+D:\2010-\IMO4\IMO4_MVC_2011\MvcIMO4\MvcIMO4.Tests\obj\Debug\MvcIMO4.Tests.pdb
+D:\MvcIMO4\MvcIMO4.Tests\bin\Debug\MvcIMO4.Tests.dll.config
+D:\MvcIMO4\MvcIMO4.Tests\bin\Debug\MvcIMO4.Tests.dll
+D:\MvcIMO4\MvcIMO4.Tests\bin\Debug\MvcIMO4.Tests.pdb
+D:\MvcIMO4\MvcIMO4.Tests\bin\Debug\MvcIMO4.dll
+D:\MvcIMO4\MvcIMO4.Tests\bin\Debug\NLog.dll
+D:\MvcIMO4\MvcIMO4.Tests\bin\Debug\MvcIMO4.pdb
+D:\MvcIMO4\MvcIMO4.Tests\bin\Debug\NLog.xml
+D:\MvcIMO4\MvcIMO4.Tests\bin\Debug\de\MvcIMO4.resources.dll
+D:\MvcIMO4\MvcIMO4.Tests\bin\Debug\es\MvcIMO4.resources.dll
+D:\MvcIMO4\MvcIMO4.Tests\bin\Debug\fr\MvcIMO4.resources.dll
+D:\MvcIMO4\MvcIMO4.Tests\bin\Debug\pt\MvcIMO4.resources.dll
+D:\MvcIMO4\MvcIMO4.Tests\obj\Debug\ResolveAssemblyReference.cache
+D:\MvcIMO4\MvcIMO4.Tests\obj\Debug\MvcIMO4.Tests.dll
+D:\MvcIMO4\MvcIMO4.Tests\obj\Debug\MvcIMO4.Tests.pdb
+D:\03-2011\MvcIMO4\MvcIMO4.Tests\bin\Debug\MvcIMO4.Tests.dll.config
+D:\03-2011\MvcIMO4\MvcIMO4.Tests\bin\Debug\MvcIMO4.Tests.dll
+D:\03-2011\MvcIMO4\MvcIMO4.Tests\bin\Debug\MvcIMO4.Tests.pdb
+D:\03-2011\MvcIMO4\MvcIMO4.Tests\bin\Debug\MvcIMO4.dll
+D:\03-2011\MvcIMO4\MvcIMO4.Tests\bin\Debug\NLog.dll
+D:\03-2011\MvcIMO4\MvcIMO4.Tests\bin\Debug\MvcIMO4.pdb
+D:\03-2011\MvcIMO4\MvcIMO4.Tests\bin\Debug\NLog.xml
+D:\03-2011\MvcIMO4\MvcIMO4.Tests\bin\Debug\de\MvcIMO4.resources.dll
+D:\03-2011\MvcIMO4\MvcIMO4.Tests\bin\Debug\es\MvcIMO4.resources.dll
+D:\03-2011\MvcIMO4\MvcIMO4.Tests\bin\Debug\fr\MvcIMO4.resources.dll
+D:\03-2011\MvcIMO4\MvcIMO4.Tests\bin\Debug\pt\MvcIMO4.resources.dll
+D:\03-2011\MvcIMO4\MvcIMO4.Tests\obj\Debug\ResolveAssemblyReference.cache
+D:\03-2011\MvcIMO4\MvcIMO4.Tests\obj\Debug\MvcIMO4.Tests.dll
+D:\03-2011\MvcIMO4\MvcIMO4.Tests\obj\Debug\MvcIMO4.Tests.pdb
+D:\www.imo4.com\MvcIMO4\MvcIMO4.Tests\bin\Debug\MvcIMO4.Tests.dll.config
+D:\www.imo4.com\MvcIMO4\MvcIMO4.Tests\bin\Debug\MvcIMO4.Tests.dll
+D:\www.imo4.com\MvcIMO4\MvcIMO4.Tests\bin\Debug\MvcIMO4.Tests.pdb
+D:\www.imo4.com\MvcIMO4\MvcIMO4.Tests\bin\Debug\MvcIMO4.dll
+D:\www.imo4.com\MvcIMO4\MvcIMO4.Tests\bin\Debug\NLog.dll
+D:\www.imo4.com\MvcIMO4\MvcIMO4.Tests\bin\Debug\MvcIMO4.pdb
+D:\www.imo4.com\MvcIMO4\MvcIMO4.Tests\bin\Debug\NLog.xml
+D:\www.imo4.com\MvcIMO4\MvcIMO4.Tests\bin\Debug\de\MvcIMO4.resources.dll
+D:\www.imo4.com\MvcIMO4\MvcIMO4.Tests\bin\Debug\es\MvcIMO4.resources.dll
+D:\www.imo4.com\MvcIMO4\MvcIMO4.Tests\bin\Debug\fr\MvcIMO4.resources.dll
+D:\www.imo4.com\MvcIMO4\MvcIMO4.Tests\bin\Debug\pt\MvcIMO4.resources.dll
+D:\www.imo4.com\MvcIMO4\MvcIMO4.Tests\obj\Debug\ResolveAssemblyReference.cache
+D:\www.imo4.com\MvcIMO4\MvcIMO4.Tests\obj\Debug\MvcIMO4.Tests.dll
+D:\www.imo4.com\MvcIMO4\MvcIMO4.Tests\obj\Debug\MvcIMO4.Tests.pdb
